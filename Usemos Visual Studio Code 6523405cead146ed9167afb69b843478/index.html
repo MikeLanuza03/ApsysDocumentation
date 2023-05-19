@@ -1,0 +1,580 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../LOGO_APSYS.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.8">
+    
+    
+      
+        <title>Usemos Visual Code - Bienvenido a Apsys</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.815d1a91.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#usemos-visual-studio-code" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Bienvenido a Apsys" class="md-header__button md-logo" aria-label="Bienvenido a Apsys" data-md-component="logo">
+      
+  <img src="../logo_Apsys_white-ver.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bienvenido a Apsys
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Usemos Visual Code
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Bienvenido a Apsys" class="md-nav__button md-logo" aria-label="Bienvenido a Apsys" data-md-component="logo">
+      
+  <img src="../logo_Apsys_white-ver.ico" alt="logo">
+
+    </a>
+    Bienvenido a Apsys
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Por donde empezar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Usemos Visual Code
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Usemos Visual Code
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primeros-pasos" class="md-nav__link">
+    Primeros pasos…
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-el-front-end" class="md-nav__link">
+    ¿Que es el Front End?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaz" class="md-nav__link">
+    Interfaz
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personalizacion" class="md-nav__link">
+    Personalización
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensiones" class="md-nav__link">
+    Extensiones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lanzar-plataforma" class="md-nav__link">
+    Lanzar plataforma
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Usemos%20Visual%20Studio%20ee10e243d40246b480dced765d9016fb/" class="md-nav__link">
+        Usemos Visual Studio
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Usemos%20el%20gestionador%20de%20bases%20de%20datos%20fd9ae6110c8343dea703aaca3985a015/" class="md-nav__link">
+        Usemos el gestionador de bases de datos
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primeros-pasos" class="md-nav__link">
+    Primeros pasos…
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-el-front-end" class="md-nav__link">
+    ¿Que es el Front End?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaz" class="md-nav__link">
+    Interfaz
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personalizacion" class="md-nav__link">
+    Personalización
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensiones" class="md-nav__link">
+    Extensiones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lanzar-plataforma" class="md-nav__link">
+    Lanzar plataforma
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p><img alt="Untitled" src="../Resources/VSC.jfif" width="150" /></p>
+<h1 id="usemos-visual-studio-code">Usemos Visual Studio Code</h1>
+<h2 id="primeros-pasos">Primeros pasos…</h2>
+<h2 id="que-es-el-front-end">¿Que es el Front End?</h2>
+<p>La parte de un sitio web con la que el usuario interactua directamente se denomina interfaz de usuario o simplemente interfaz. Se podría decir que es la parte del cliente de una aplicación. Incluye todo lo que los usuarios experimentan: colores, estilos, imágenes, gráficos, tablas botones, animaciones, etc. </p>
+<p>Para esta parte del desarrollo de software se utilizaran principalmente lenguajes como HTML, CSS y JavaScript. Quien se encarga del <em>Front End</em> se encargan de implementar la estructura, diseño, comportamiento y contenido de todo lo que se vera en el navegador por el usuario. Las vistas del <em>Front End</em> pueden ser sitios web, aplicaciones web o aplicaciones móviles.</p>
+<p>Tal que la capacidad de respuesta y el rendimiento son los objetivos principales de este apartado. Cuando se hace desarrollo de <em>Front End</em> se debe probar que el sitio o aplicación responda, que los elementos visuales aparezcan correctamente, y que las funciones se comporten correctamente.</p>
+<h2 id="interfaz">Interfaz</h2>
+<ul>
+<li>Para poder lanzar la aplicación de Visual Studio Code (Visual Code), podremos utilizar dos maneras, la primera de ellas a través del icono que se encuentra en el escritorio.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled.png" /></p>
+<ul>
+<li>Y la segundo sera buscando la aplicación en el menú de inicio.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%201.png" width="500" /></p>
+<ul>
+<li>En cualquiera de los dos casos hacemos doble click y se lanzara nuestra aplicación, desplegándose la pantalla de inicio que es como la que se muestra a continuación.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%202.png" /></p>
+<ul>
+<li>En el área de trabajo encontraremos algunas combinaciones para atajos bastante útiles, conforme vayas trabajando en desarrollo de proyectos, entenderás para que se usan estos atajos.</li>
+</ul>
+<h2 id="personalizacion">Personalización</h2>
+<p>Algo que consideramos importante es que tu experiencia al trabajar en el desarrollo de software sea la mejor, y una parte esencial de esta experiencia es la visualización de la aplicación, por lo que aprovecharemos en esta ocasión para enseñarte rápidamente como se lleva a cabo la personalización del tema del Visual Code.</p>
+<ul>
+<li>Nos dirigimos a la parte inferior izquierda de la pagina de inicio y daremos click en el botón de configuración que es el que se indica en la imagen siguiente.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%203.png" width="500" /></p>
+<ul>
+<li>Hacemos click en la opción <em>Color Theme</em> lo cual nos desplegara las opciones de tema que podremos utilizar.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%204.png" />
+- Se pueden descargar mas temas si es que no te gusta alguno de los preinstalados, solo debemos dar click en la opción <em>Browse Additional Color Themes…</em></p>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%205.png" width="500" /></p>
+<h2 id="extensiones">Extensiones</h2>
+<p>Otra de las cosas interesantes que nos ofrece el Visual Code es que podemos agregar complementos de manera muy sencilla y estos nos ayudaran al desarrollo de nuestros proyectos.</p>
+<p>Estos complementos se conocen como extensiones y en la barra lateral izquierda podremos ir a una sección donde visualizaremos las extensiones que tenemos instaladas.</p>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%206.png" width="300" /></p>
+<p>Ahí también encontraras un buscador donde podrás buscar de manera mas especifica extensiones, ya sea que estén instaladas o que se puedan descargar las veras enlistadas en la barra lateral.</p>
+<p>Te recomendamos que instales las siguientes extensiones:</p>
+<ul>
+<li>
+<p>Color Highlight</p>
+<p>Te cambia el fondo de los códigos en hexadecimal que representen un código de color.</p>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%207.png" /></p>
+</li>
+<li>
+<p>CSS Flexbox Cheatsheet</p>
+<p>Esta extensión te permitirá abrir de manera directa una vista de referencia de los estilos usando flexbox, herramienta fundamental para diseño.</p>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%208.png" /></p>
+</li>
+<li>
+<p>ES7 React/Redux/GraphQL/React-Native snippets</p>
+<p>Esta extensión nos ayudara a agregar funciones en todos los proyectos donde se utiliza React, que es una biblioteca de las mas usadas para desarrollo de <em>Front End</em>.</p>
+</li>
+</ul>
+<h2 id="lanzar-plataforma">Lanzar plataforma</h2>
+<p>Para poder visualizar el <em>Front End</em> debemos de lanzar nuestra plataforma desde Visual Code, para hacer esto primero debemos abrir la carpeta donde se encuentra nuestro proyecto. </p>
+<ul>
+<li>Y apara esto nos dirigimos al menú superior y buscamos el botón <em>File,</em> al dar click en el se desplegaran varias opciones.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%209.png" width="500" /></p>
+<ul>
+<li>Ahora debemos dar click en la opción <em>Open Folder…,</em> se nos desplegara una ventana del explorador de archivos, y aqui buscaremos y seleccionaremos la carpeta de nuestro proyecto a lanzar.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%2010.png" /></p>
+<ul>
+<li>Ya cargado el proyecto nos aparecerá la siguiente pantalla.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%2011.png" /></p>
+<ul>
+<li>Un paso importante sera instalar el proyecto, y para esto utilizaremos la herramienta npm (si no la tienes instalada puedes verificar como hacerlo <a href="../Hola,%20bienvenido%20a%20tu%201er%20di%CC%81a%20c62c76fae62a4fd6a993dd754906543d.md">AQUI</a>). Debemos abrir la consola de Visual Code, y para esto nos dirigimos al botón de <em>View</em>, y seleccionamos la opción <em>Terminal.</em></li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%2012.png" /></p>
+<ul>
+<li>Aparecerá en la parte inferior del área de trabajo una terminal y en la primer linea tendremos la dirección de la carpeta de nuestro proyecto.</li>
+</ul>
+<p><img alt="Untitled" src="../Resources/VSC/Untitled%2013.png" /></p>
+<ul>
+<li>Escribimos lo siguiente:</li>
+</ul>
+<pre><code class="language-powershell">npm install
+</code></pre>
+<ul>
+<li>Debemos esperar a que se instale nuestro proyecto, la manera en que sabremos que ya se completo el proceso es que vuelve a aparecer la ruta de nuestro proyecto como cuando se desplegó la terminal.</li>
+<li>Y ahora si, para poder lanzar nuestro proyecto utilizaremos el siguiente comando.</li>
+</ul>
+<pre><code class="language-powershell">npm start
+</code></pre>
+<ul>
+<li>Se abrirá una nueva pestaña en el navegador que estemos utilizando o en el que tengamos como predeterminado. De esa manera visualizaremos la parte del <em>Front End</em> de nuestro proyecto.</li>
+</ul>
+<aside>
+☝ En caso de que no se inicie correctamente el proyecto te recomendamos acercarte a alguno de tus compañeros o directamente a tu coach, ya que uno de los problemas mas comunes con los que te encontraras sera el versionado.
+</aside>
+
+<h1 id="felicidades-has-concluido-con-esta-seccion">¡FELICIDADES HAS CONCLUIDO CON ESTA SECCIÓN!</h1>
+<p>Si aun no los has revisado checa esta otra documentación…</p>
+<p><a href="../Usemos%20Visual%20Studio%20ee10e243d40246b480dced765d9016fb/">Usemos Visual Studio </a></p>
+<p><a href="../Usemos%20el%20gestionador%20de%20bases%20de%20datos%20fd9ae6110c8343dea703aaca3985a015/">Usemos el gestionador de bases de datos.</a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Por donde empezar" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Por donde empezar
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Usemos%20Visual%20Studio%20ee10e243d40246b480dced765d9016fb/" class="md-footer__link md-footer__link--next" aria-label="Next: Usemos Visual Studio" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Usemos Visual Studio
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.follow"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
